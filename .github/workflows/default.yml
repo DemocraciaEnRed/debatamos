@@ -10,7 +10,7 @@ jobs:
       - uses: mr-smithers-excellent/docker-build-push@v3
         name: Build & push Docker image
         with:
-          image: democraciaenred/debatamos
+          image: debatamos/debatamos
           tag: latest
           registry: docker.pkg.github.com
           username: ${{ secrets.DOCKER_BUILD_USER }}
