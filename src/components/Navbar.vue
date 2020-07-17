@@ -11,7 +11,7 @@
         </template>
 
         <template slot="end">
-            <b-navbar-item href="https://docs.google.com/forms/d/e/1FAIpQLSe18mgHqJPUof9o4U2z2MOuAaakrmKd7ddhe1-h575etxlyAQ/viewform" target="_blank">
+            <b-navbar-item href="https://google.com" target="_blank">
                 Participá
             </b-navbar-item>
             <b-navbar-item href="https://facebook.com/democraciaenred" target="_blank">
