@@ -18,7 +18,7 @@
                 <img src="@/assets/info-column.svg" class="image is-centered lainfo" alt />
               </div>
               <div class="column is-3 is-offset-1">
-                <a href="https://google.com">
+                <a href="https://preguntarparaacordar.typeform.com/to/tCYJb6WE" target="_blank">
 
                 <img
                   src="@/assets/participa-button.svg"
@@ -47,6 +47,7 @@ export default {
 <style lang="scss" scoped>
 .hero{
   background-color: #eae7e7;
+  position: relative;
 }
 .the-linea{
   z-index: 1;

@@ -3,6 +3,7 @@
     <Head />
     <Organiza />
     <Acerca />
+    <Agenda />
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Head from "@/components/home/Head.vue"
 import Organiza from "@/components/home/Organiza.vue"
 import Acerca from "@/components/home/Acerca.vue"
+import Agenda from "@/components/home/Agenda.vue"
 
 export default {
   name: "Home",
   components: {
     Head,
     Organiza,
-    Acerca
+    Acerca,
+    Agenda
   }
 };
 </script>

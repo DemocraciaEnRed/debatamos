@@ -15,6 +15,10 @@ $text: $black;
 $title-color: $primary;
 $subtitle-color: $dark;
 
+$warning: #e97e24;
+$primary-invert: findColorInvert($warning);
+
+
 
 $colors: ("white": ($white, $black),
 "black": ($black, $white),

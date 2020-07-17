@@ -14,6 +14,7 @@
         <div class="line"></div>
         </div>
       </div>
+      <br>
       <div class="columns is-centered">
         <div class="column is-8 has-text-centered">
           <h1 class="title is-4 is-700 is-uppercase">
@@ -64,7 +65,7 @@ export default {
 }
 .line{
  width: 2px;
- height: 150px;
+ height: 200px;
  margin: 0 auto;
  background-color: #e97e24;
 }
