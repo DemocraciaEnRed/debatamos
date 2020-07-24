@@ -20,8 +20,8 @@
           <h1 class="title is-4 is-700 is-uppercase">
             ¿Las Redes son un campo de batalla?<br>
             ¿Por qué nos insultamos?<br>
-            ¿Que estamos discutiendo? ¿A donde nos lleva?<br>
-            ¿Como deconstruimos la polarización pólitica?
+            ¿Qué estamos discutiendo? ¿A donde nos lleva?<br>
+            ¿Cómo deconstruimos la polarización pólitica?
           </h1>
         </div>
             </div>
