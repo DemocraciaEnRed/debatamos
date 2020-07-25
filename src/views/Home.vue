@@ -4,6 +4,7 @@
     <Organiza />
     <Acerca />
     <Agenda />
+    <Bios />
     <End />
   </div>
 </template>
@@ -13,6 +14,7 @@ import Head from "@/components/home/Head.vue"
 import Organiza from "@/components/home/Organiza.vue"
 import Acerca from "@/components/home/Acerca.vue"
 import Agenda from "@/components/home/Agenda.vue"
+import Bios from "@/components/home/Bios.vue"
 import End from "@/components/home/End.vue"
 
 export default {
@@ -22,6 +24,7 @@ export default {
     Organiza,
     Acerca,
     Agenda,
+    Bios,
     End
   }
 };
