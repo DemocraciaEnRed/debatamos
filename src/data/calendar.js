@@ -94,7 +94,7 @@ export default {
       {
         starts: new Date(Date.UTC(2020,6,31,16,30,0)),
         ends: new Date(Date.UTC(2020,6,31,17,30,0)),
-        name: '&nbsp;CONVERSATORIO&nbsp;<br/>&nbsp;Desinformación&nbsp;',
+        name: '&nbsp;CONVERSATORIO&nbsp;<br/>&nbsp;"#desinformación ¿qué hacemos?"&nbsp;',
         subtitle: 'Debate libre moderado por<br/>Agustín Frizzera (Democracia en Red)',
         with:[
           {
@@ -117,7 +117,7 @@ export default {
       {
         starts: new Date(Date.UTC(2020,6,31,17,30,0)),
         ends: new Date(Date.UTC(2020,6,31,18,30,0)),
-        name: '&nbsp;CIERRE&nbsp;<br/>&nbsp;Conclusiones&nbsp;',
+        name: '&nbsp;CIERRE&nbsp;',
         subtitle: null,
         with:[
           {
