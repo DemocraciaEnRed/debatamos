@@ -1,6 +1,7 @@
 <template>
   <div>
-    <Head />
+    <Stage />
+    <!-- <Head /> -->
     <Organiza />
     <Acerca />
     <Agenda />
@@ -10,7 +11,8 @@
 </template>
 
 <script>
-import Head from "@/components/home/Head.vue"
+// import Head from "@/components/home/Head.vue"
+import Stage from "@/components/home/Stage.vue"
 import Organiza from "@/components/home/Organiza.vue"
 import Acerca from "@/components/home/Acerca.vue"
 import Agenda from "@/components/home/Agenda.vue"
@@ -20,7 +22,8 @@ import End from "@/components/home/End.vue"
 export default {
   name: "Home",
   components: {
-    Head,
+    // Head,
+    Stage,
     Organiza,
     Acerca,
     Agenda,

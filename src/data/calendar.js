@@ -111,6 +111,11 @@ export default {
             name: 'Paola Acosta',
             org: 'Observatorio de Derecho Informático Argentino - ODIA',
             from: 'ARG'
+          },
+          {
+            name: 'Agustina del Campo',
+            org: 'Centro de Estudios en Libertad de Expresión - CELE',
+            from: 'ARG'
           }
         ]
       },

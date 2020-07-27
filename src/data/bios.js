@@ -113,6 +113,13 @@ export default [
     picture: 'acosta.jpg'
   },
   {
+    name: 'Agustina del Campo',
+    org: 'Centro de Estudios en Libertad de Expresión - CELE',
+    event: 'CONVERSATORIO',
+    bio: 'Es Directora del Centro de Estudios en Libertad de Expresión y Acceso a la Información (CELE) desde 2016 e investigadora desde 2012. Abogada y Magister en Derecho Internacional y Derechos Humanos de American University Washington College of Law. Becaria Fulbright de investigación en la Universidad de Columbia en Nueva York (2015) y miembro del grupo de expertos del Proyecto Global de Libertad de Expresión y Acceso a la Información de la misma universidad. Fue consultora para la Organización de Estados Americanos y Amnistía Internacional Argentina, entre otros. Es profesora de grado y posgrado en derecho internacional, derechos humanos e internet y autora y colaboradora en publicaciones sobre la temática.',
+    picture: 'campo.jpg'
+  },
+  {
     name: 'Sergio Massa',
     org: 'Presidente de la Honorable Cámara de Diputados de la Nación',
     event: 'CIERRE',

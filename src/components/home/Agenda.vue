@@ -77,6 +77,9 @@ export default {
   right: 0;
   bottom: 0;
   z-index: 0;
+  @media only screen and (max-width: 1024px) {
+    opacity: 0.4;
+  }
 }
 .line-balls{
   position: absolute;

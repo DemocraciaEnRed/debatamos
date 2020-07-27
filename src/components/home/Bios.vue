@@ -5,17 +5,18 @@
       <br />
       <div class="columns is-centered">
         <div class="column is-9">
-          <div class="tile is-ancestor" v-for="i in [1,3,5,7,9,11,13,15]" :key="i">
+          <div class="tile is-ancestor" v-for="i in [1,3,5,7,9,11,13,15,17]" :key="i">
             <div class="tile is-parent">
               <Bio :bio="bios[i-1]" class="tile is-child bio-container" :class="colors[i-1]" />
               <Bio :bio="bios[i]" class="tile is-child bio-container" :class="colors[i]" />
             </div>
           </div>
-          <div class="tile is-ancestor">
+          <!-- <div class="tile is-ancestor">
             <div class="tile is-parent">
               <Bio :bio="bios[16]" class="tile is-child bio-container" :class="colors[16]" />
+              <Bio :bio="bios[16]" class="tile is-child bio-container" :class="colors[17]" />
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
