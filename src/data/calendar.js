@@ -85,7 +85,7 @@ export default {
             from: 'BR',
           },
           {
-            name: 'Laura Zoomer',
+            name: 'Laura Zommer',
             org: 'Chequeado',
             from: 'ARG',
           },
