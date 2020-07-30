@@ -99,11 +99,11 @@ export default [
     picture: 'belbis.jpg'
   },
   {
-    name: 'Lucia He',
+    name: 'Ivan Weissman',
     org: 'RED/ACCIÓN',
     event: 'CONVERSATORIO',
-    bio: 'Lucía Wei He es Editora y Periodista en RED/ACCIÓN, donde produce videos y contenidos multimedia sobre temas de género, inmigración, derechos humanos y más. Previamente, Lucía se desempeñó como columnista diaria en CNN Radio y corresponsal para numerosos medios internacionales, incluyendo BBC, Al Jazeera English y Americas Quarterly, entre otros. También formó parte del equipo de Fortalecimiento de las Instituciones Democráticas de ACIJ (Asociación Civil por la Igualdad y la Justicia), como editora del sitio web Sin Corrupción.  Lucía es graduada de la Universidad de Georgetown, donde estudió Economía Política Internacional.',
-    picture: 'he.jpg'
+    bio: 'Curioso. Economista y Politólogo de profesión, periodista de oficio. Nacido en Estados Unidos, criado en Chile, pero el corazón me trajo a Argentina. Antes de enamorarme del periodismo pasé por la política y el mundo de las finanzas. Miembro del equipo fundador de Red/Acción, ex Director de Bloomberg TV en Londres y fundador de El Mostrador Mercados en Chile.',
+    picture: 'weissman.jpg'
   },
   {
     name: 'Paola Acosta',
@@ -118,6 +118,13 @@ export default [
     event: 'CONVERSATORIO',
     bio: 'Es Directora del Centro de Estudios en Libertad de Expresión y Acceso a la Información (CELE) desde 2016 e investigadora desde 2012. Abogada y Magister en Derecho Internacional y Derechos Humanos de American University Washington College of Law. Becaria Fulbright de investigación en la Universidad de Columbia en Nueva York (2015) y miembro del grupo de expertos del Proyecto Global de Libertad de Expresión y Acceso a la Información de la misma universidad. Fue consultora para la Organización de Estados Americanos y Amnistía Internacional Argentina, entre otros. Es profesora de grado y posgrado en derecho internacional, derechos humanos e internet y autora y colaboradora en publicaciones sobre la temática.',
     picture: 'campo.jpg'
+  },
+  {
+    name: 'Dolores Martínez',
+    org: 'Diputada Nacional - Honorable Cámara de Diputados de la Nación',
+    event: 'CONVERSATORIO',
+    bio: 'Diputada Nacional por la Ciudad Autónoma de Buenos Aires. Electa por el espacio Evolución Radical, integra el bloque Radical en Juntos por el Cambio. Es Licenciada en Ciencia Política, egresada de la Universidad de Buenos Aires. Trabaja desde hace muchos años en temas vinculados a la modernización del estado, parlamento abierto, uso de las tecnologías, especialmente del poder legislativo, y fue Directora del Programa de Modernización de la Honorable Cámara de Diputados de la Nación (2016-2019). Tiene amplia experiencia en temas legislativos y de gestión.',
+    picture: 'martinez.jpg'
   },
   {
     name: 'Sergio Massa',

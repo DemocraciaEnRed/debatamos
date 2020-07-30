@@ -103,7 +103,7 @@ export default {
             from: 'ARG'
           },
           {
-            name: 'Lucia He',
+            name: 'Ivan Weissman',
             org: 'Red/Acción',
             from: 'ARG'
           },
@@ -115,6 +115,11 @@ export default {
           {
             name: 'Agustina del Campo',
             org: 'Centro de Estudios en Libertad de Expresión - CELE',
+            from: 'ARG'
+          },
+          {
+            name: 'Dolores Martínez',
+            org: 'Diputada Nacional - HCDN',
             from: 'ARG'
           }
         ]

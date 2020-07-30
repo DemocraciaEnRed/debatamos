@@ -11,12 +11,12 @@
               <Bio :bio="bios[i]" class="tile is-child bio-container" :class="colors[i]" />
             </div>
           </div>
-          <!-- <div class="tile is-ancestor">
+          <div class="tile is-ancestor">
             <div class="tile is-parent">
-              <Bio :bio="bios[16]" class="tile is-child bio-container" :class="colors[16]" />
-              <Bio :bio="bios[16]" class="tile is-child bio-container" :class="colors[17]" />
+              <Bio :bio="bios[18]" class="tile is-child bio-container" :class="colors[18]" />
+              <!-- <Bio :bio="bios[16]" class="tile is-child bio-container" :class="colors[17]" /> -->
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
