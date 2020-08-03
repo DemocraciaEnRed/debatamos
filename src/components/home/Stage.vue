@@ -1,33 +1,47 @@
 <template>
   <div class="hero is-small-with-navbar">
-    <img src="@/assets/line-white.svg" class="the-linea" alt="">
+    <img src="@/assets/line-white.svg" class="the-linea" alt />
     <div class="hero-body">
       <div class="container">
         <!-- <p class="is-inline is-600 is-size-5" style="position: fixed; bottom: 0; left: 0;background-color: blue; color: white; padding: 5px 15px;">Hora: {{this.now}}</p> -->
 
         <section v-if="showtime">
-
-        <div class="columns is-centered">
-          <div class="column is-6">
-            <img src="@/assets/logo-wide.svg" class="image is-hidden-touch" alt />
-            <img src="@/assets/logo-mobile.svg" class="image is-hidden-desktop" alt />
-          </div>
-        </div>
-        <br>
-        <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <div class="tile is-child">
-            <div class="videoWrapper">
-             <iframe width="853" height="480" :src="`https://www.youtube.com/embed/${streamId}?start=21018`" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            </div>
-            <div class="tile is-child is-4 slido-container">
-              <iframe src="https://app.sli.do/event/equou7pj" height="100%" width="100%" style="height:100%"></iframe>
+          <div class="columns is-centered">
+            <div class="column is-6">
+              <img src="@/assets/logo-wide.svg" class="image is-hidden-touch" alt />
+              <img src="@/assets/logo-mobile.svg" class="image is-hidden-desktop" alt />
             </div>
           </div>
-        </div>
-        <p class="has-text-primary font-secondary is-size-4 is-italic"><i class="fas fa-arrow-up"></i>&nbsp;Hacé tu pregunta a las y los expositores, participá activamente de la conversación en vivo <i class="fas fa-arrow-up is-hidden-touch"></i> </p>
-        <coming-next :now="now"/>
+          <br />
+          <div class="tile is-ancestor">
+            <div class="tile is-parent">
+              <div class="tile is-child">
+                <div class="videoWrapper">
+                  <iframe
+                    width="853"
+                    height="480"
+                    :src="`https://www.youtube.com/embed/${streamId}`"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="tile is-child is-4 slido-container">
+                <iframe
+                  src="https://app.sli.do/event/equou7pj"
+                  height="100%"
+                  width="100%"
+                  style="height:100%"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+          <p class="has-text-primary font-secondary is-size-4 is-italic">
+            <i class="fas fa-arrow-up"></i>&nbsp;Hacé tu pregunta a las y los expositores, participá activamente de la conversación en vivo
+            <i class="fas fa-arrow-up is-hidden-touch"></i>
+          </p>
+          <coming-next :now="now" />
         </section>
         <section v-else>
           <div class="columns is-centered">
@@ -36,7 +50,7 @@
               <img src="@/assets/logo-mobile.svg" class="image is-hidden-desktop" alt />
             </div>
           </div>
-          <br>
+          <br />
           <div class="columns is-centered" v-if="!afterShowtime">
             <div class="column is-11">
               <div class="columns is-centered is-vcentered">
@@ -45,45 +59,66 @@
                 </div>
                 <div class="column is-3 is-offset-1">
                   <a href="https://preguntarparaacordar.typeform.com/to/tCYJb6WE" target="_blank">
-
-                  <img
-                    src="@/assets/participa-button.svg"
-                    class="image elboton is-centered animate__animated animate__pulse animate__infinite"
-                    alt
-                  />
+                    <img
+                      src="@/assets/participa-button.svg"
+                      class="image elboton is-centered animate__animated animate__pulse animate__infinite"
+                      alt
+                    />
                   </a>
                 </div>
               </div>
             </div>
           </div>
+          <div v-else>
+            <div class="columns is-centered is-vcentered">
+              <div class="column is-hidden-touch">
+                <div class="line"></div>
+              </div>
+              <div class="column is-10">
+                <div class="videoWrapper">
+                  <iframe
+                    width="853"
+                    height="480"
+                    :src="`https://www.youtube.com/embed/${streamId}?`"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              </div>
+              <div class="column is-hidden-touch">
+                <div class="line"></div>
+              </div>
+            </div>
+          </div>
         </section>
-    </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import ComingNext from '../stage/ComingNext.vue'
+import ComingNext from "../stage/ComingNext.vue";
 
 export default {
   name: "Head",
   data() {
     return {
-      streamId: '0uCZ5ujYq60',
+      streamId: "0uCZ5ujYq60",
       // streamId: '-2oUSyu2tEk',
       // streamId: 'GOJHd0CI1p4',
       now: new Date(),
       // now: new Date(Date.UTC(2020,6,31,2,0,0)),
-      starts: new Date(Date.UTC(2020,6,31,3,0,0)),
-      ends: new Date(Date.UTC(2020,7,1,3,0,0)),
+      starts: new Date(Date.UTC(2020, 6, 31, 3, 0, 0)),
+      ends: new Date(Date.UTC(2020, 7, 1, 3, 0, 0)),
       intervalId: null,
-    }
+    };
   },
   components: {
-    ComingNext
+    ComingNext,
   },
-  mounted: function(){
+  mounted: function () {
     this.intervalId = setInterval(this.updateTime, 30000);
     // this.intervalId = setInterval(this.updateTime, 50);
   },
@@ -91,18 +126,18 @@ export default {
     if (this.intervalId) clearInterval(this.intervalId);
   },
   methods: {
-    updateTime: function(){
-      this.now = new Date()
+    updateTime: function () {
+      this.now = new Date();
       // this.now = this.addMinutes(Math.floor(Math.random() * 10) + 5)
       // this.now = this.addSeconds(Math.floor(Math.random() * 30) + 10)
       // this.now = this.addSeconds(30)
     },
     addMinutes(minutes) {
-      return new Date(this.now.getTime() + minutes*60000);
+      return new Date(this.now.getTime() + minutes * 60000);
     },
     addSeconds(seconds) {
-      return new Date(this.now.getTime() + seconds*1000);
-    }
+      return new Date(this.now.getTime() + seconds * 1000);
+    },
   },
   computed: {
     showtime: function () {
@@ -116,30 +151,30 @@ export default {
       if (desde <= this.now) return true;
       return false;
     },
-  }
+  },
 };
 </script>
 
 <style lang="scss" scoped>
-.hero{
+.hero {
   background-color: #eae7e7;
   position: relative;
 }
-.the-linea{
+.the-linea {
   z-index: 1;
   position: absolute;
-  height:100%;
-  right:0;
+  height: 100%;
+  right: 0;
 }
-.hero-body{
-  z-index:10;
+.hero-body {
+  z-index: 10;
 }
-.elboton{
-  width:100%;
+.elboton {
+  width: 100%;
   max-width: 200px;
 }
-.lainfo{
-  width:100%;
+.lainfo {
+  width: 100%;
   max-width: 250px;
 }
 .videoWrapper {
@@ -154,9 +189,15 @@ export default {
   width: 100%;
   height: 100%;
 }
-.slido-container{
-   @media only screen and (max-width: 1024px) {
-      height: 560px !important;
-    }
+.slido-container {
+  @media only screen and (max-width: 1024px) {
+    height: 560px !important;
+  }
+}
+.line {
+  width: 2px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #e97e24;
 }
 </style>

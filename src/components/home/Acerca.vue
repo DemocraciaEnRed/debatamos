@@ -5,7 +5,7 @@
         <div class="column is-hidden-touch">
         <div class="line"></div>
         </div>
-        <div class="column is-8">
+        <div class="column is-6">
           <div class="videoWrapper">
              <iframe width="853" height="480" :src="`https://www.youtube.com/embed/MKIjGgs3Owo`" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style=""></iframe>
             </div>
