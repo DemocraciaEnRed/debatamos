@@ -45,7 +45,7 @@
         </section>
         <section v-else>
           <div class="columns is-centered">
-            <div class="column is-8">
+            <div class="column is-6">
               <img src="@/assets/logo-wide.svg" class="image is-hidden-touch" alt />
               <img src="@/assets/logo-mobile.svg" class="image is-hidden-desktop" alt />
             </div>
